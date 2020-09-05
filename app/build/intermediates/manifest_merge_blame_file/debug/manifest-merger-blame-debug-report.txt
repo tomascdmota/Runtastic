@@ -56,92 +56,91 @@
 32-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:16:9-54
 33        android:supportsRtl="true"
 33-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:17:9-35
-34        android:testOnly="true"
-35        android:theme="@style/AppTheme" >
-35-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:18:9-40
-36        <activity
-36-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:19:9-26:20
-37            android:name="com.example.runtastic.ui.MainActivity"
-37-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:19:19-50
-38            android:launchMode="singleInstance" >
-38-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:20:13-48
-39            <intent-filter>
-39-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:21:13-25:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:22:17-69
-40-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:22:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:24:17-77
-42-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:24:27-74
-43            </intent-filter>
-44        </activity>
-45
-46        <service
-46-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:28:9-29:55
-47            android:name="com.example.runtastic.Services.TrackingService"
-47-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:28:18-58
-48            android:foregroundServiceType="location" />
-48-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:29:13-53
-49
-50        <meta-data
-50-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:32:9-34:68
-51            android:name="com.google.android.gms.version"
-51-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:33:13-58
-52            android:value="@integer/google_play_services_version" />
-52-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:34:13-66
-53        <meta-data
-53-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:35:9-37:54
-54            android:name="com.google.android.geo.API_KEY"
-54-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:36:14-59
-55            android:value="@string/google_maps_key" />
-55-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:37:13-52
-56
-57        <activity
-57-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
-58            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-58-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
-59            android:exported="false"
-59-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
-60            android:label=""
-60-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
-61            android:theme="@style/EasyPermissions.Transparent" />
-61-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
-62
-63        <service
-63-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-64            android:name="androidx.room.MultiInstanceInvalidationService"
-64-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-65            android:directBootAware="true"
-65-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-66            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
-66-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-67        <uses-library
-67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\0017c7578f2ac0814909e6913cf6b055\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-68            android:name="org.apache.http.legacy"
-68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\0017c7578f2ac0814909e6913cf6b055\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-69            android:required="false" />
-69-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\0017c7578f2ac0814909e6913cf6b055\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-70
-71        <activity
-71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-73            android:exported="false"
-73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-75
-76        <provider
-76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-77            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-78            android:authorities="com.example.runtastic.lifecycle-process"
-78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-79            android:exported="false"
-79-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-80            android:multiprocess="true" />
-80-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-81    </application>
-82
-83</manifest>
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:18:9-40
+35        <activity
+35-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:19:9-26:20
+36            android:name="com.example.runtastic.ui.MainActivity"
+36-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:19:19-50
+37            android:launchMode="singleInstance" >
+37-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:20:13-48
+38            <intent-filter>
+38-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:21:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:22:17-69
+39-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:22:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:24:17-77
+41-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <service
+45-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:28:9-29:55
+46            android:name="com.example.runtastic.Services.TrackingService"
+46-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:28:18-58
+47            android:foregroundServiceType="location" />
+47-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:29:13-53
+48
+49        <meta-data
+49-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:32:9-34:68
+50            android:name="com.google.android.gms.version"
+50-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:33:13-58
+51            android:value="@integer/google_play_services_version" />
+51-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:34:13-66
+52        <meta-data
+52-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:35:9-37:54
+53            android:name="com.google.android.geo.API_KEY"
+53-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:36:14-59
+54            android:value="@string/google_maps_key" />
+54-->C:\Users\Tomas\AndroidStudioProjects\Runtastic\app\src\main\AndroidManifest.xml:37:13-52
+55
+56        <activity
+56-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+57            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+57-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+58            android:exported="false"
+58-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+59            android:label=""
+59-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+60            android:theme="@style/EasyPermissions.Transparent" />
+60-->[pub.devrel:easypermissions:3.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\811e71c2c6b4304710573095254f4c94\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+61
+62        <service
+62-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+63            android:name="androidx.room.MultiInstanceInvalidationService"
+63-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+64            android:directBootAware="true"
+64-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+65            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+65-->[androidx.room:room-runtime:2.2.5] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\b938998b8ccc2788368ff5c5dee26c76\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+66        <uses-library
+66-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\0017c7578f2ac0814909e6913cf6b055\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+67            android:name="org.apache.http.legacy"
+67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\0017c7578f2ac0814909e6913cf6b055\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+68            android:required="false" />
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\0017c7578f2ac0814909e6913cf6b055\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\bf49c169e65ad3436a4cdd4bff46167b\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+74
+75        <provider
+75-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+76            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+77            android:authorities="com.example.runtastic.lifecycle-process"
+77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+78            android:exported="false"
+78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+79            android:multiprocess="true" />
+79-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Tomas\.gradle\caches\transforms-2\files-2.1\3ae8da6e3cc17ee213ee425998b4c17e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+80    </application>
+81
+82</manifest>

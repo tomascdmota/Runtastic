@@ -1,4 +1,4 @@
-#Thu Sep 03 20:24:05 BST 2020
+#Sat Sep 05 22:29:17 BST 2020
 base.0=C\:\\Users\\Tomas\\AndroidStudioProjects\\Runtastic\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
